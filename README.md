@@ -14,11 +14,14 @@ Things you may want to cover:
 
 * Configuration
 
-  1. `rake db:create`
-  2. `rake db:migrate`
-  3. `rake db:seed`
-  4. check created indices: `http://localhost:9200/songs`
-  5. display created records: `localhost:9200/songs/_search?pretty`
+  - `rake db:create`
+  - `rake db:migrate`
+  - `rake db:seed`
+  - check created indices: `http://localhost:9200/songs`
+  - display created records: `localhost:9200/songs/_search?pretty`
+  - search by artist: "ringo" `http://localhost:3000/songs?query=Ringo`
+  - search by album: "ministry" `http://localhost:3000/songs?query=ministry`
+  - search by genre: "tweegaze" `http://localhost:3000/songs?query=tweegaze`
 
 * Database creation
 
