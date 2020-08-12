@@ -15,6 +15,7 @@ Things you may want to cover:
 * Database creation
 
 * Database initialization
+  My postgress port is `5454`. You may need to change it back to the default `5432` in the `database.yml` file
 
 * How to run the test suite
 
