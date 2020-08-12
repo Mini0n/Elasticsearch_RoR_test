@@ -6,14 +6,14 @@ class Song < ApplicationRecord
   include Elasticsearch::Model
   include Elasticsearch::Model::Callbacks
 
-  def as_indexed_json(options = {}){
-    self.as_json(
-      only: [:id, :title, :album, :genre, :year],
+  def as_indexed_json(options = {})
+    as_json(
+      only: %i[id title album genre year],
       include: {
         band: {
-          only: [:name, :country]
+          only: %i[name country]
         }
       }
     )
-  }
+  end
 end
