@@ -4,7 +4,7 @@ class SongsController < ApplicationController
   def index
     response = Song.__elasticsearch__.search(
       query: {
-        multi_match: {
+        query_string: {
           query: params[:query],
           fields: ['title', 'band.name', 'band.country', 'genre', 'album']
         }

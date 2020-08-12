@@ -22,6 +22,7 @@ Things you may want to cover:
   - search by artist: "ringo" `http://localhost:3000/songs?query=Ringo`
   - search by album: "ministry" `http://localhost:3000/songs?query=ministry`
   - search by genre: "tweegaze" `http://localhost:3000/songs?query=tweegaze`
+  - search with wildcards "twee*" `http://localhost:3000/songs?query=twee*`
 
 * Database creation
 
