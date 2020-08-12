@@ -14,11 +14,11 @@ Things you may want to cover:
 
 * Configuration
 
-  `rake db:create`
-  `rake db:migrate`
-  `rake db:seed`
-  check created indices: `http://localhost:9200/songs`
-  display created records: `localhost:9200/songs/_search?pretty`
+  1. `rake db:create`
+  2. `rake db:migrate`
+  3. `rake db:seed`
+  4. check created indices: `http://localhost:9200/songs`
+  5. display created records: `localhost:9200/songs/_search?pretty`
 
 * Database creation
 
