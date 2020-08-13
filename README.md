@@ -1,15 +1,15 @@
 # Ruby On Rails & Elascticsearch test project
 
-Search songs by band's name, country, title, album and/or genre with Elasticsearh query_string.
+Search songs by band's name, country, title, album and/or genre with Elasticsearch query_string.
 
 
 ![results screenshot](https://i.imgur.com/QSrWN4c.png)
 
 
 ## Environment
-* Ruby Version: `2.6.5`
-* Rails versión `5.2.4.3`
-* Posgresql versión: `12.3`
+* Ruby version: `2.6.5`
+* Rails version `5.2.4.3`
+* Posgresql version: `12.3`
 * Elasticsearch version: `7.8.1`
 
 ## Setup
@@ -30,7 +30,6 @@ Search songs by band's name, country, title, album and/or genre with Elasticsear
 ### Start server
 
   - `rails s`
-
 
 
 ## Checking functionality
