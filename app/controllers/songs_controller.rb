@@ -13,8 +13,8 @@ class SongsController < ApplicationController
     ).results
 
     render json: {
-      results: response.results,
-      total: response.total
+      total: response.total,
+      results: response.results
     }
   end
 end
