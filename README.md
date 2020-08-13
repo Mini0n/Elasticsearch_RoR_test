@@ -18,7 +18,7 @@
   - `rake db:migrate`
   - `rake db:seed`
 
-  > **DB_PORT**: I changed the Postresql port in `database.yml` from default `5432` to `5432`. Adjust it to your system.
+  > **DB_PORT**: I changed the Postgresql port in `database.yml`. Adjust it to your system.
 
 
 ### Start server
@@ -34,7 +34,7 @@
 
 - **display created records**
 
-  `http://localhost:9200/songs/_search?pretty`
+  `http://localhost:9200/songs/_search?pretty`****
 
 - **search by artist: "ringo"**
 
