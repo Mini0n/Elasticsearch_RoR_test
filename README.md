@@ -3,6 +3,9 @@
 Search songs by band's name, country, title, album and/or genre with Elasticsearh query_string.
 
 
+![results screenshot](https://i.imgur.com/WEdxOYh.png)
+
+
 ## Environment
 * RUby Version: `2.6.5`
 * Rails versión `5.2.4.3`
