@@ -1,39 +1,53 @@
-# README
+# Ruby On Rails & Elascticsearch test project
 
-Ruby On Rails & Elascticsearch test project
+## Environment
+* RUby Version: `2.6.5`
+* Rails versión `5.2.4.3`
+* Posgresql versión: `12.3`
+* Elasticsearch version: `7.8.1`
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+### Elasticsearch
 
-  ruby-2.6.5
+- [Installing Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html)
 
-* System dependencies
-
-  ElasticSearch
-
-* Configuration
+### Database creation
 
   - `rake db:create`
   - `rake db:migrate`
   - `rake db:seed`
-  - check created indices: `http://localhost:9200/songs`
-  - display created records: `localhost:9200/songs/_search?pretty`
-  - search by artist: "ringo" `http://localhost:3000/songs?query=Ringo`
-  - search by album: "ministry" `http://localhost:3000/songs?query=ministry`
-  - search by genre: "tweegaze" `http://localhost:3000/songs?query=tweegaze`
-  - search with wildcards "twee*" `http://localhost:3000/songs?query=twee*`
 
-* Database creation
+  > **DB_PORT**: I changed the Postresql port in `database.yml` from default `5432` to `5432`. Adjust it to your system.
 
-* Database initialization
 
-  My postgress port is `5454`. You may need to change it back to the default `5432` in the `database.yml` file
+### Start server
 
-* How to run the test suite
+  - `rails s`
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Checking functionality
 
-* ...
+- **check ES created indices**
+
+  `http://localhost:9200/songs`
+
+- **display created records**
+
+  `http://localhost:9200/songs/_search?pretty`
+
+- **search by artist: "ringo"**
+
+  `http://localhost:3000/songs?query=Ringo`
+
+- **search by album: "ministry"**
+
+  `http://localhost:3000/songs?query=ministry`
+
+- **search by genre: "tweegaze"**
+
+  `http://localhost:3000/songs?query=tweegaze`
+
+- **search with wildcards "twee\*"**
+
+  `http://localhost:3000/songs?query=twee*`
