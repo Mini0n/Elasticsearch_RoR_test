@@ -41,7 +41,7 @@ Search songs by band's name, country, title, album and/or genre with Elasticsear
 
 - **display created records**
 
-  `http://localhost:9200/songs/_search?pretty`
+  `http://localhost:9200/songs/_search?pretty&size=100`
 
 - **search an artist: "ringo"**
 
