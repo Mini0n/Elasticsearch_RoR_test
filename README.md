@@ -1,6 +1,6 @@
 # Ruby On Rails & Elascticsearch test project
 
-
+Search songs by band's name, country, title, album and/or genre with Elasticsearh query_string.
 
 
 ## Environment
@@ -40,18 +40,34 @@
 
   `http://localhost:9200/songs/_search?pretty`****
 
-- **search by artist: "ringo"**
+- **search an artist: "ringo"**
 
   `http://localhost:3000/songs?query=Ringo`
 
-- **search by album: "ministry"**
+- **search an album: "ministry"**
 
   `http://localhost:3000/songs?query=ministry`
 
-- **search by genre: "tweegaze"**
+- **search a genre: "tweegaze"**
 
   `http://localhost:3000/songs?query=tweegaze`
 
 - **search with wildcards "twee\*"**
 
   `http://localhost:3000/songs?query=twee*`
+
+- **search by field "title:ministry"**
+
+  `http://localhost:3000/songs?query=title:ministry`
+
+- **search by field: band name "band.name:io"**
+
+  `http://localhost:3000/songs?query=band.name:io`
+
+- **search with AND (io AND girls)**
+
+  `http://localhost:3000/songs?query=(io%20AND%20girls)`
+
+- **search with OR (lillies OR waste OR paradise)**
+
+  `http://localhost:3000/songs?query=(lillies%20OR%20waste%20OR%20paradise)`
