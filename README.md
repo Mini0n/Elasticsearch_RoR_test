@@ -7,7 +7,7 @@ Search songs by band's name, country, title, album and/or genre with Elasticsear
 
 
 ## Environment
-* RUby Version: `2.6.5`
+* Ruby Version: `2.6.5`
 * Rails versión `5.2.4.3`
 * Posgresql versión: `12.3`
 * Elasticsearch version: `7.8.1`
