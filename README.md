@@ -1,5 +1,8 @@
 # Ruby On Rails & Elascticsearch test project
 
+
+
+
 ## Environment
 * RUby Version: `2.6.5`
 * Rails versión `5.2.4.3`
@@ -24,6 +27,7 @@
 ### Start server
 
   - `rails s`
+
 
 
 ## Checking functionality
