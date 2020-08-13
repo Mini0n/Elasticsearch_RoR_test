@@ -3,7 +3,7 @@
 Search songs by band's name, country, title, album and/or genre with Elasticsearh query_string.
 
 
-![results screenshot](https://i.imgur.com/WEdxOYh.png)
+![results screenshot](https://i.imgur.com/QSrWN4c.png)
 
 
 ## Environment
